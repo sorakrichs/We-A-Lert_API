@@ -1,0 +1,43 @@
+{
+  "name": "wealert_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12.2.9"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^6.19.6",
+    "@sentry/tracing": "^6.19.6",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.1",
+    "bull": "^4.5.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-rate-limit": "^6.4.0",
+    "express-session": "^1.17.2",
+    "firebase-admin": "^10.0.2",
+    "geofire": "^5.2.0",
+    "image-type": "^4.1.0",
+    "jwt-simple": "^0.5.6",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "node-cron": "^3.0.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "raven": "^2.6.4",
+    "redis": "^4.0.1",
+    "request-ip": "^2.1.3"
+  }
+}
